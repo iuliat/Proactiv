@@ -167,6 +167,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\TopicsModels1Controller.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -174,6 +175,15 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201703031959350_InitialCreate.cs" />
+    <Compile Include="Migrations\201703031959350_InitialCreate.Designer.cs">
+      <DependentUpon>201703031959350_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201703040652497_Fix.cs" />
+    <Compile Include="Migrations\201703040652497_Fix.Designer.cs">
+      <DependentUpon>201703040652497_Fix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
@@ -238,6 +248,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\TopicsModels1\Create.cshtml" />
+    <Content Include="Views\TopicsModels1\Delete.cshtml" />
+    <Content Include="Views\TopicsModels1\Details.cshtml" />
+    <Content Include="Views\TopicsModels1\Edit.cshtml" />
+    <Content Include="Views\TopicsModels1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -249,6 +264,14 @@
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201703031959350_InitialCreate.resx">
+      <DependentUpon>201703031959350_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201703040652497_Fix.resx">
+      <DependentUpon>201703040652497_Fix.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

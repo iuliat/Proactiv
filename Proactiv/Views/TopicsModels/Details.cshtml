@@ -1,0 +1,42 @@
+﻿@model Proactiv.Models.TopicsModels
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>TopicsModels</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TopicTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TopicTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TopicDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TopicDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TopicTag)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TopicTag)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.TopicID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

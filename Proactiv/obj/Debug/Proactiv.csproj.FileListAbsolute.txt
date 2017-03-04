@@ -67,3 +67,6 @@ D:\share\Projects\VS2015\Proactiv\Proactiv\bin\Microsoft.Owin.Security.Microsoft
 D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.csprojResolveAssemblyReference.cache
 D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.dll
 D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.pdb
+D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.Migrations.InitialCreate.resources
+D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.csproj.GenerateResource.Cache
+D:\share\Projects\VS2015\Proactiv\Proactiv\obj\Debug\Proactiv.Migrations.Fix.resources

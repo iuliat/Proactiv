@@ -29,5 +29,7 @@ namespace Proactiv.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Proactiv.Models.TopicsModels> TopicsModels { get; set; }
     }
 }
