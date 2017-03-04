@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+<h2>@ViewBag.Message</h2>
+
+<p>Use this area to provide additional information.</p>
+
+@model Proactiv.Models.RegisterViewModel
+
+
+<div class="edititem">
+    @Html.DisplayFor(m => @Model.Email)
+    @Model.Email
+
+    <div class="editor-label">
+        @Html.DisplayFor(modelItem => @Model.Email)
+        @Html.LabelFor(m => @Model.Email)
+        @Model.Email
+    </div>
+
+
+    <div class="editor-field">
+        @Html.TextBoxFor(m => m.Email, new { @Value = Model.Email })
+
+    </div>
+</div>
+
+
+<fieldset>
+
+
+
+    @Html.TextBoxFor(x => x.FirstName)
+    <br />
+    @Html.TextBoxFor(x => x.LastName)
+    <br />
+    @Html.TextBoxFor(x => x.Country)
+
+</fieldset>
